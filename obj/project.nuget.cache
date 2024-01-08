@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HIdH0OzkYNi2Y4g1tS8qvB4ww9M5VMyH8RxNeHt5Cno+ssr7vgWwplbtSvPo2aPn4JZNjV4U0SqYtPnSqf+yKw==",
+  "success": true,
+  "projectFilePath": "/Users/kyle.roux/git/space-app/space-app.csproj",
+  "expectedPackageFiles": [
+    "/Users/kyle.roux/.nuget/packages/jetbrains.space.client/1.0.0-beta.v2022.2.0-dev.113510.9115/jetbrains.space.client.1.0.0-beta.v2022.2.0-dev.113510.9115.nupkg.sha512",
+    "/Users/kyle.roux/.nuget/packages/jetbrains.space.common/1.0.0-beta.v2022.2.0-dev.113510.9115/jetbrains.space.common.1.0.0-beta.v2022.2.0-dev.113510.9115.nupkg.sha512"
+  ],
+  "logs": []
+}

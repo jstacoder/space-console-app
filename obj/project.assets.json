@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "JetBrains.Space.Client/1.0.0-beta.v2022.2.0-DEV.113510.9115": {
+        "type": "package",
+        "dependencies": {
+          "JetBrains.Space.Common": "1.0.0-beta.v2022.2.0-DEV.113510.9115"
+        },
+        "compile": {
+          "lib/net6.0/JetBrains.Space.Client.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/JetBrains.Space.Client.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "JetBrains.Space.Common/1.0.0-beta.v2022.2.0-DEV.113510.9115": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/JetBrains.Space.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/JetBrains.Space.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JetBrains.Space.Client/1.0.0-beta.v2022.2.0-DEV.113510.9115": {
+      "sha512": "QU4vZ0PL9iBNEVwlkoWjPfRxgsdIHptyC0fuYjnU1UQ80GyKWaFOm/TmhyiBFM36jNwa2Xr846RGgSO1CLu5Jg==",
+      "type": "package",
+      "path": "jetbrains.space.client/1.0.0-beta.v2022.2.0-dev.113510.9115",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jetbrains.space.client.1.0.0-beta.v2022.2.0-dev.113510.9115.nupkg.sha512",
+        "jetbrains.space.client.nuspec",
+        "lib/net6.0/JetBrains.Space.Client.dll",
+        "lib/net6.0/JetBrains.Space.Client.pdb",
+        "lib/net6.0/JetBrains.Space.Client.xml",
+        "lib/netcoreapp3.1/JetBrains.Space.Client.dll",
+        "lib/netcoreapp3.1/JetBrains.Space.Client.pdb",
+        "lib/netcoreapp3.1/JetBrains.Space.Client.xml",
+        "package_icon.png"
+      ]
+    },
+    "JetBrains.Space.Common/1.0.0-beta.v2022.2.0-DEV.113510.9115": {
+      "sha512": "qQo0j5Oc0fx/2FfwOdHwDADTder4zPWgwwspo9MRWT15tkINXR6ShT1gLLIp9mNeB5/nOx2+q51E2juNn9FJ6A==",
+      "type": "package",
+      "path": "jetbrains.space.common/1.0.0-beta.v2022.2.0-dev.113510.9115",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jetbrains.space.common.1.0.0-beta.v2022.2.0-dev.113510.9115.nupkg.sha512",
+        "jetbrains.space.common.nuspec",
+        "lib/net6.0/JetBrains.Space.Common.dll",
+        "lib/net6.0/JetBrains.Space.Common.pdb",
+        "lib/net6.0/JetBrains.Space.Common.xml",
+        "lib/netcoreapp3.1/JetBrains.Space.Common.dll",
+        "lib/netcoreapp3.1/JetBrains.Space.Common.pdb",
+        "lib/netcoreapp3.1/JetBrains.Space.Common.xml",
+        "package_icon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "JetBrains.Space.Client >= 1.0.0-beta.v2022.2.0-DEV.113510.9115"
+    ]
+  },
+  "packageFolders": {
+    "/Users/kyle.roux/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/kyle.roux/git/space-app/space-app.csproj",
+      "projectName": "space-app",
+      "projectPath": "/Users/kyle.roux/git/space-app/space-app.csproj",
+      "packagesPath": "/Users/kyle.roux/.nuget/packages/",
+      "outputPath": "/Users/kyle.roux/git/space-app/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/kyle.roux/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "JetBrains.Space.Client": {
+            "target": "Package",
+            "version": "[1.0.0-beta.v2022.2.0-DEV.113510.9115, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
